@@ -5,3 +5,9 @@
 .tag_bg{
     background: #7A6A4C;
 }
+
+.aboutme_bg {
+    background-image: url('img/electron_BG.svg');
+    background-position: center;
+    background-attachment: fixed;
+}
