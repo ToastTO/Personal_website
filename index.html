@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>New Personal Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
 
     <!-- Nav bar -->
-    <nav class="navbar border-bottom border-body navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar border-bottom border-body navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-sm">
             <!-- brand -->
             <a href="#" class="navbar-brand d-flex">
@@ -51,7 +52,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" >Music</a>
+                        <a class="nav-link" href="toast_music/index.html" >Music</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true" href="#" >Story</a>
@@ -62,7 +63,7 @@
     </nav>
 
     <!-- showcase -->
-    <section class="p-5 border">
+    <section class="p-5 border vh-100 d-flex align-items-center">
         <div class="container">
             <div class="d-flex flex-column align-items-center flex-md-row align-items-md-center text-center text-md-start">
                 
@@ -107,11 +108,11 @@
     </section>
 
     <!-- About Me Section -->
-    <section class="border position-relative aboutme_bg d-flex justify-content-center">
+    <section class="position-relative aboutme_bg d-flex justify-content-center">
         <div class="container shadow p-5 m-5 bg-body rounded">
             <h1 class="display-3">About me</h1>
-            <!-- <div class="container-fluid px-0">             -->
-            <p class=>
+            <!-- <div class="container-fluid px-0">  -->
+            <p>
                 I am a creative and passionate individual with a thirst for knowledge. Constantly exploring new skills online satisfied my curiosity in how things works, it also makes me discover my passion for electronics and music. This dual passion has led me on a journey to become an electronic engineer and a dedicated amateur musician/songwriter. 
             </p>
                 <!-- <img src="" alt="" class="img-fulid"> -->
@@ -144,7 +145,7 @@
             </div>
         </div>
         <div class="container pb-5 px-4 d-flex flex-column justify-content-between align-items-center flex-md-row ">
-            <img src="img/experience/LittleBoss.png" alt="" class="img-fulid w-50 shadow rounded-4">
+            <img src="img/experience/AIguided_gpphoto.JPG" alt="" class="img-fulid w-50 shadow rounded-4">
             <div class="container-fulid pt-5 pt-md-0 mx-md-5">
                 <h2>AI Guided Limited<br>Intern Electronic Engineer</h2>
                 <p>
@@ -153,8 +154,69 @@
             </div>
         </div>
     </section>
-    
 
+
+    <!-- CV and Social Media -->
+
+    <section class="aboutme_bg d-flex flex-column align-items-center p-5">
+        <div class="display-5 text-center w-75  container shadow p-5 m-5 rounded-pill text-decoration-none" style="background-color: #7A6A4C;">
+            <a href="doc/Resume.pdf" target="_blank" class="text-light icon-link icon-link-hover text-decoration-none">
+                Resume <i class="bi bi-file-earmark-person-fill"><use xlink:href="#arrow-right"></use></i>
+            </a>
+        </div>
+        <div class="d-flex flex-column flex-lg-row justify-content-around text-center text-light w-75">
+            <div class="text-center">
+                <a href="" class="text-light display-6 text-center px-5 py-3 my-3 rounded-pill icon-link icon-link-hover" style="background-color: #7A6A4C; text-decoration: none;">
+                    instagram<i class="bi bi-instagram"><use xlink:href="#arrow-right"></use></i>
+                </a>
+            </div> 
+            <div class="text-center">
+                <a href="" class="text-light display-6 px-5 py-3 my-3 rounded-pill icon-link icon-link-hover" style="background-color: #7A6A4C; text-decoration: none;">
+                    linkedin<i class="bi bi-linkedin"><use xlink:href="#arrow-right"></use></i>
+                </a>
+            </div> 
+            <div class="text-center">
+                <a href="" class="text-light display-6 px-5 py-3 my-3 rounded-pill icon-link icon-link-hover" style="background-color: #7A6A4C; text-decoration: none;">
+                    gmail<i class="bi bi-envelope"><use xlink:href="#arrow-right"></use></i>
+                </a>
+            </div> 
+        </div>
+    </section>
+
+    <footer class="bg-dark p-4 ">
+        <footer class="bg-dark p-4 mt-2">
+        <div class="container text-center text-md-start text-secondary mt-5 mb-2">
+            <div class="row">
+                <div class="col-md-7">
+                    <h5 class="yollow"><img src="img/toast.svg" alt="" class="img-fulid mx-2" style="height: 25px;">
+                        AnsonCHUI</h6>
+                    <p class="px-2 my-5">This is AnsonCHUI Personal Wesite, builded with bootstrap 5.<br>The purpose of built is to learning bootstrap to develop a web nicely.</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h5 class="yollow">Page</h6>
+                    <p class="mt-3">
+                        <a href="#" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Home</a></li>
+                    </p>
+                    <p>
+                        <a href="#" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="text-decoration: none;">Projects</a></li>
+                    </p>
+                    <p>
+                        <a href="#" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="text-decoration: none;">Music</a></li>
+                    </p>
+                    <p>
+                        <a href="#" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" style="text-decoration: none;">Story</a></li>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="yollow">Contant</h6>
+                        <p class="mt-3"><a href="https://www.instagram.com/chuitoto/" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">instagram</a></p>
+                        <p><a href="https://www.linkedin.com/in/chi-to-anson-chui-965200226/" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">linkedin</a></p>
+                        <p><a href="mailto:chuichitoanson@gmail.com" class="link-secondary link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">gmail</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
