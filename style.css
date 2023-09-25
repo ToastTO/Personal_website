@@ -11,3 +11,12 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+/* try to crop pic with toast, but failed */
+.mask-toast {
+    -webkit-mask-image: url('img/toast.svg');
+    mask-image: url('img/toast.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
