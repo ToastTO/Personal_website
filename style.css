@@ -4,6 +4,11 @@
 
 .tag_bg{
     background: #7A6A4C;
+    transition: transform 0.05s ease-in;
+}
+
+.tag_bg:hover {
+    transform: scale(1.1);
 }
 
 .aboutme_bg {
